@@ -1,0 +1,322 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+body {
+	-webkit-backface-visibility: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+}
+
+@media (min-width:767px) {
+	.navbar {
+		padding: 20px 0;
+		-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+		-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+		transition: background .5s ease-in-out,padding .5s ease-in-out;
+	}
+
+	.top-nav-collapse {
+	background: rgba(23, 27, 30, 0.75);
+	border-bottom: 1px dashed #C9C9C9;
+	padding: 0;
+	}
+}
+
+
+.text-indent {
+	text-indent: 50px;
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+	height: 100%;
+	padding-top: 20%;
+	text-align: center;   
+}
+
+.intro-section h1 {
+	font-weight: bold;
+	font-size: 40px;
+	text-shadow: 1px 1px 1px #000;
+	color: #FFF;
+}
+
+.intro-section:after {
+	background-image: url('../img/back-pattern.png');
+	content: "";
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: -1;
+	background-attachment: fixed;
+}
+
+#video_background {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+	overflow: hidden;
+}
+
+.slogan {
+	text-shadow: 1px 1px 1px #C9C9C9;
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	color: #fff;
+	font-size: 20px;
+}
+
+
+.originalSouSlo {
+	ext-shadow: 1px 1px 1px #C9C9C9;
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+}
+
+.hashtags {
+	text-shadow: 1px 1px 1px #C9C9C9;
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+
+.credits_list {
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	color: #000;
+	font-size: 18px;
+	text-align: center;
+}
+
+.mainHeading {
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+	font-weight: bolder;
+	color: #FFF;
+	font-size: 70px;
+}
+
+.home-button {
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+	font-size: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-decoration: none;
+	transition: all 0.3s;
+	color: #e4e4e4;
+	border: 1px Solid #FFF;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.thumbnail {
+	background-image: url('../img/bg.png');
+}
+
+.home-button:hover {
+	transition: all 0.3s;
+	background-color: #FFF;
+	color: #171b1e;
+	text-shadow: 1px 1px 1px #FFF;
+}
+
+.slogan-2 {
+	text-shadow: 1px 1px 1px #000;
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+.gray {
+	background-color: rgba(255, 255, 255, 0.7);
+	color: rgba(49, 49, 49, 1);
+	padding: 10px;
+	line-height: 38px;
+}
+
+
+.about-section {
+	padding-top: 100px;
+	padding-bottom: 40px;
+	/*background: #FFF;*/
+}
+
+.about2-section {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#waveform2 {
+	padding-bottom: 20px;
+}
+
+#waveform {
+	padding-bottom: 20px;
+}
+
+.controls2 {
+	text-align: center;
+}
+
+.portfolio-section-next {
+	padding: 60px 0 60px;
+	background-color: #FFF;
+	border-top: 5px solid #d0d0d0;
+	border-bottom: 5px solid #d0d0d0;
+	text-align: center;
+}
+
+.about-section h1 {
+	color: #666;
+	text-align: center;
+}
+
+/*.services-section h1, .contact-section {
+	color: #fff;
+	text-align: center;
+}*/
+
+.services-section {
+	padding-top: 100px;
+	text-align: center;
+	/*background: rgba(23, 27, 30, 0.8);*/
+}
+
+#services-blocks h4 {
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
+.contact-section {
+	height: 100%;
+	padding-top: 15%;
+	background: rgba(23, 27, 30, 0.8);
+}
+
+.footer {
+   border-top: 1px dashed #d0d0d0;
+   padding: 20px;
+   background: rgba(23, 27, 30, 1);
+   text-align: center;
+}
+
+.controls {
+	text-align: center;
+}
+
+.footer p {
+	padding-top: 5px;
+	color: #FFF;
+}
+
+.top-nav-collapse {
+
+}
+
+.navbar-nav {
+	padding-top: 10px;
+}
+
+.navbar-brand {
+	padding: 5px;
+
+}
+
+.category-section {
+	padding-top: 100px;
+	text-align: center;
+}
+
+.navbar-fixed-top {
+	padding: 0px;
+	height: 80px;
+}
+
+/* ==========================
+Parallax
+============================= */
+
+#parallax1{	
+	background-image: url(../img/ed.html);
+	background-position: center;
+	background-repeat: no-repeat;
+	display:block;
+	position:relative;
+	z-index:120; 
+}
+
+#parallax1:after {	
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	opacity: 0.9;
+	z-index: -1;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/* loader */
+#preloader {
+	background: rgba(23, 27, 30, 0.75);
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+#load {
+	z-index: 9999;
+	background-color: #f00;
+	opacity: 0.75;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 50%;
+	margin: -5px auto 0 auto;
+	left: 0;
+	right: 0;
+	border-radius: 0px;
+	border: 5px solid #000;
+	box-shadow: 10px 0px #d2d2d2, 10px 0px #f00;
+	animation: shadowSpin 1s ease-in-out infinite;
+	text-align: center;
+}
+.highlight {
+	border-bottom: 3px solid #666;
+	font-weight: 600;
+	font-size: 16px;
+}
